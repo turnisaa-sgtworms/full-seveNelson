@@ -508,7 +508,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "stm32f072_template.step",
+      "step": "../fsnPCB.step",
       "svg": "",
       "vrml": ""
     },
