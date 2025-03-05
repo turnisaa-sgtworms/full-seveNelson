@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "3a528e73-f31e-4a2a-a227-fc6e2b323603")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:D_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -96,10 +100,10 @@
 			(symbol "D_Small_0_1"
 				(polyline
 					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
+						(xy -0.762 0) (xy 0.762 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -108,10 +112,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.762 0) (xy 0.762 0)
+						(xy -0.762 -1.016) (xy -0.762 1.016)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -169,11 +173,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "marbastlib-mx:MX_SW_HS_CPG151101S11"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -231,6 +240,18 @@
 				)
 			)
 			(symbol "MX_SW_HS_CPG151101S11_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -266,10 +287,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -282,17 +302,6 @@
 					(pts
 						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -338,6 +347,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -2052,7 +2062,6 @@
 	)
 	(label "A2"
 		(at 229.87 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2063,7 +2072,6 @@
 	)
 	(label "B10"
 		(at 227.33 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2074,7 +2082,6 @@
 	)
 	(label "B1"
 		(at 227.33 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2085,7 +2092,6 @@
 	)
 	(label "A8"
 		(at 229.87 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2096,7 +2102,6 @@
 	)
 	(label "B14"
 		(at 227.33 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2107,7 +2112,6 @@
 	)
 	(label "B5"
 		(at 227.33 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2118,7 +2122,6 @@
 	)
 	(label "A13"
 		(at 229.87 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2129,7 +2132,6 @@
 	)
 	(label "B9"
 		(at 227.33 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2140,7 +2142,6 @@
 	)
 	(label "B12"
 		(at 227.33 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2151,7 +2152,6 @@
 	)
 	(label "B15"
 		(at 227.33 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2162,7 +2162,6 @@
 	)
 	(label "A4"
 		(at 229.87 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2173,7 +2172,6 @@
 	)
 	(label "B13"
 		(at 227.33 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2184,7 +2182,6 @@
 	)
 	(label "A0"
 		(at 229.87 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2195,7 +2192,6 @@
 	)
 	(label "A7"
 		(at 229.87 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2206,7 +2202,6 @@
 	)
 	(label "B2"
 		(at 227.33 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2217,7 +2212,6 @@
 	)
 	(label "B0"
 		(at 227.33 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2228,7 +2222,6 @@
 	)
 	(label "A3"
 		(at 229.87 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2239,7 +2232,6 @@
 	)
 	(label "B11"
 		(at 227.33 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2250,7 +2242,6 @@
 	)
 	(label "B6"
 		(at 227.33 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2261,7 +2252,6 @@
 	)
 	(label "B4"
 		(at 227.33 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2272,7 +2262,6 @@
 	)
 	(label "A14"
 		(at 229.87 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2283,7 +2272,6 @@
 	)
 	(label "A6"
 		(at 229.87 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2294,7 +2282,6 @@
 	)
 	(label "B3"
 		(at 227.33 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2305,7 +2292,6 @@
 	)
 	(label "B7"
 		(at 227.33 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2316,7 +2302,6 @@
 	)
 	(label "A15"
 		(at 229.87 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2327,7 +2312,6 @@
 	)
 	(label "A10"
 		(at 229.87 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2338,7 +2322,6 @@
 	)
 	(label "A1"
 		(at 229.87 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2349,7 +2332,6 @@
 	)
 	(label "B8"
 		(at 227.33 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2360,7 +2342,6 @@
 	)
 	(label "A9"
 		(at 229.87 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2371,7 +2352,6 @@
 	)
 	(label "A5"
 		(at 229.87 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
