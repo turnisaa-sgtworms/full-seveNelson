@@ -11,4 +11,4 @@ stm32 powered
 built with the help of this guide: https://youtu.be/kGKN8SGkUD0?si=LNXGM9T6t6xvs4m5
 by noah kiser
 
-plate coming soon methinks
+plate files are added, but will need updated when i fix the spacing :(
